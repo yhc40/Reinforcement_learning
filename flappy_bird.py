@@ -7,7 +7,7 @@ import random
 import os 
 from utils import plot, plot_loss, plot_rewards
 from model import DQN, DQN_Trainer 
-
+# test
 class FlappyAgent:
 
     def __init__(self,policy_net=DQN(4),target_net=DQN(4),capacity=80000,gamma = 0.8):
